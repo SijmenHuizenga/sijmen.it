@@ -1,0 +1,16 @@
+baseurl = "https://sijmen.it"
+title = "Sijmens Software en ICT"
+
+canonifyurls = true
+paginate = 10
+theme = "sijmenit"
+languageCode = "nl-nl"
+copyright = "Copyright © 2018 Sijmens Software en ICT"
+
+[author]
+    name = "Sijmen Huizenga"
+
+[params]
+  DateForm = "2018-06-02"
+  Description = "Your site description"
+  Author = "Sijmen Huizenga"

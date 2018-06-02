@@ -1,0 +1,1 @@
+Dit thema is gebaseerd op [humboldtux/startbootstrap-clean-blog](https://github.com/humboldtux/startbootstrap-clean-blog).

@@ -1,0 +1,15 @@
+name = "Sijmen Zakelijk Theme"
+license = "Apache 2.0"
+licenselink = "https://github.com/humboldtux/startbootstrap-clean-blog/blob/master/LICENSE.md"
+tags = ["company", "bootstrap"]
+features = ["bootstrap"]
+min_version = 0.18
+
+[author]
+  name = "Sijmen Huizenga"
+#  homepage = "https://sijmen.it"
+
+[original]
+  name = "startbootstrap-clean-blog"
+  homepage = "https://github.com/humboldtux/startbootstrap-clean-blog/"
+  repo = "https://github.com/humboldtux/startbootstrap-clean-blog"
