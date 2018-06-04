@@ -1,0 +1,16 @@
+{{ $images :=  split (.Get 0) " " }}
+{{ $titles :=  split (.Get 1) "|" }}
+{{ $subtitles :=  split (.Get 2) "|" }}
+
+<div class="text-center">
+    {{range $index, $img := $images}}
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 cell-container">
+        <div class="img" style='background-image: url(/img/{{ $img }})'>
+        <div class="overlay">
+        <div class="text">
+            <p class="title">{{index $titles $index}}</p><div class="divider"></div><p class="sub-title">{{index $subtitles $index}}</p>
+        </div></div></div>
+    </div>
+
+    {{end}}
+</div>
